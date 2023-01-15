@@ -5,13 +5,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 module.exports = {
   title: "N1mbly",
   tagline: "Focused on the domain.",
-  url: "https://bjelicaluka.github.io",
-  baseUrl: "/nimbly/",
+  url: "https://n1mbly.github.io",
+  baseUrl: "/docs/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "images/logo-new-dark.svg",
-  organizationName: "bjelicaluka",
-  projectName: "nimbly",
+  organizationName: "n1mbly",
+  projectName: "docs",
   themeConfig: {
     navbar: {
       title: "N1mbly",
@@ -19,7 +19,7 @@ module.exports = {
       logo: {
         alt: "N1mbly logo",
         src: "images/logo-new.svg",
-        srcDark: "images/logo-new-dark.svg"
+        srcDark: "images/logo-new-dark.svg",
       },
       items: [
         {
@@ -48,13 +48,13 @@ module.exports = {
         },
         {
           type: "docsVersionDropdown",
-          position: "right"
+          position: "right",
         },
         {
-          href: "https://github.com/bjelicaluka/nimbly",
+          href: "https://github.com/n1mbly",
           position: "right",
           className: "header-github-link",
-        }
+        },
       ],
     },
     footer: {
@@ -87,5 +87,5 @@ module.exports = {
       },
     ],
   ],
-  plugins: [require.resolve('docusaurus-lunr-search')],
+  plugins: [require.resolve("docusaurus-lunr-search")],
 };
